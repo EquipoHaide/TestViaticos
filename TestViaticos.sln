@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Viaticos.Servici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Viaticos.Servicios.Core", "Aplicacion.Viaticos.Servicios\Aplicacion.Viaticos.Servicios.Core\Aplicacion.Viaticos.Servicios.Core.csproj", "{9A709D38-0046-456E-BF50-6F12925601D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Viaticos.Nucleo", "Aplicacion.Viaticos.Servicios\Aplicacion.Viaticos.Nucleo\Aplicacion.Viaticos.Nucleo.csproj", "{5E394BC8-71C8-43E8-81F9-A765BC287445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{9A709D38-0046-456E-BF50-6F12925601D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A709D38-0046-456E-BF50-6F12925601D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A709D38-0046-456E-BF50-6F12925601D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E394BC8-71C8-43E8-81F9-A765BC287445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E394BC8-71C8-43E8-81F9-A765BC287445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E394BC8-71C8-43E8-81F9-A765BC287445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E394BC8-71C8-43E8-81F9-A765BC287445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +195,7 @@ Global
 		{55C2BE39-E886-44EB-A30F-E34E2AC3214A} = {B255C7A0-0452-4ED4-A9B4-F28D378B9F4D}
 		{E367CC53-5A73-46F8-B6B9-2A21E00860AF} = {55C2BE39-E886-44EB-A30F-E34E2AC3214A}
 		{9A709D38-0046-456E-BF50-6F12925601D0} = {55C2BE39-E886-44EB-A30F-E34E2AC3214A}
+		{5E394BC8-71C8-43E8-81F9-A765BC287445} = {55C2BE39-E886-44EB-A30F-E34E2AC3214A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F273894-30BF-43B8-BCA2-A6FEE4AC0576}

@@ -15,6 +15,9 @@
     <None Remove="Seguridad\" />
     <None Remove="System.IdentityModel.Tokens.Jwt" />
     <None Remove="IdentityServer4.AccessTokenValidation" />
+    <None Remove="Controllers\Viaticos \" />
+    <None Remove="Controllers\Viaticos \Flujos\" />
+    <None Remove="Controllers\Viaticos \Solicitudes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Aplicacion\" />
@@ -22,6 +25,9 @@
     <Folder Include="HealthCheck\" />
     <Folder Include="Logs\" />
     <Folder Include="Seguridad\" />
+    <Folder Include="Controllers\Viaticos \" />
+    <Folder Include="Controllers\Viaticos \Flujos\" />
+    <Folder Include="Controllers\Viaticos \Solicitudes\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aplicacion.Seguridad.Servicios\Aplicacion.Seguridad.Servicios.csproj" />
@@ -39,6 +45,9 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\Infraestructura.Transversal.ServiciosExternos\Infraestructura.Transversal.ServiciosExternos.csproj" />
+    <ProjectReference Include="..\Aplicacion.Viaticos.Servicios\Aplicacion.Viaticos.Servicios.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="4.1.1" />

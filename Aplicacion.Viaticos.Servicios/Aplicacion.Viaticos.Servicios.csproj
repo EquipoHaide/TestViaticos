@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Solicitudes\" />
+    <None Remove="Flujos \" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Solicitudes\" />
+    <Folder Include="Flujos \" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Nucleo\Dominio.Nucleo.csproj" />
+    <ProjectReference Include="..\Aplicacion.Nucleo\Aplicacion.Nucleo.csproj" />
+  </ItemGroup>
+</Project>
